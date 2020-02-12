@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #24282A;
+    background-color: #1E2021;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.game-area{
+    background-color: #1D2022;
+    background-color: #24282A;
+    width: 50%;
+    height: 60vh;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+}
+.game-area-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.game-bar{
+    background-color: #1D2022;
+    color: #158EE1;
+    width: 125%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.game-bar:hover{
+    cursor: pointer;
+    background-color: #158EE1;
+    color: #333333;
+}
+.game-bar-two{
+    background-color: #1D2022;
+    color: #158EE1;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.game-bar-two:hover{
+    cursor: pointer;
+    background-color: #158EE1;
+    color: #333333;
+}
+.game-bar-three{
+    background-color: #1D2022;
+    color: #158EE1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 25px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.game-bar-three:hover{
+    cursor: pointer;
+    background-color: #158EE1;
+    color: #333333;
+}
+.shop-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+.hidden{
+    display: none;
+}
+.map-choice{
+    display: flex;
+    flex-wrap: wrap;
+}
+.throw-button{
+    background-color: #158EE1;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.throw-button:hover{
+    cursor: pointer;
+}
+.small-pond-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #366A5F;
+    margin-top: 10px;
+}
+#update{
+    text-align: center;
+    height: 150px;
+    width: auto;
+    color: #685083;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.throw-button-two{
+    background-color: #474747;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    color: #12b54b;
+}
+.throw-button-two:hover{
+    cursor: pointer;
+}

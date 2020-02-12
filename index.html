@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-area">
+        <div class="game-area-flex" id="home-screen">
+            <div class="wrapper">
+                <p class="game-bar" id="go-to-map-screen">Play</p>
+                <p class="game-bar">Inventory</p>
+                <p class="game-bar">Updates</p>
+                <p class="game-bar" id="go-to-profile-screen">Profile</p>
+                <p class="game-bar" id="go-to-shop-screen">Shop</p>
+            </div>
+        </div>
+        <div class="hidden" id="map-choice-screen">
+            <div class="map-choice">
+                <p class="game-bar-two" id="go-to-small-pond">Small Pond</p>
+                <p class="game-bar-two" id="">City Lake</p>
+                <p class="game-bar-two" id="">Lake Orange</p>
+            </div>
+            <p class="throw-button-two" id="returnButtonMapChoiceScreen"><--</p>
+        </div>
+        <div class="hidden" id="small-pond">
+            <div id="update">
+            </div>
+            <div class="small-pond-wrapper" id="user-rod-html">
+                
+            </div>
+            <div class="small-pond-wrapper">
+                <p class="throw-button" id="throw-button">Throw!</p>
+            </div>
+            <div class="small-pond-wrapper">
+                <p class="throw-button-two" id="returnButton"><--</p>
+            </div>
+            
+        </div>
+        <div class="hidden" id="profile-screen">
+            <div>
+                <p id="user-name"></p>
+                <p id="user-total-catch"></p>
+                <p id="money"></p>
+                <p></p>
+            </div>
+            <div class="small-pond-wrapper">
+                <p class="throw-button-two" id="returnButtonProfileScreen"><--</p>
+            </div>
+        </div>
+        <div class="hidden" id="shop-screen">
+            <div class="shop-container">
+                <p class="game-bar-three" id="go-to-buy-screen">Buy</p>
+                <p class="game-bar-three" id="go-to-sell-screen">Sell</p>
+            </div>
+            <div class="shop-container">
+                <p class="throw-button-two" id="returnToHomeFromShop"><--</p>
+            </div>
+        </div>
+        <div class="hidden" id="sell-screen">
+                <div id="display-info-on-sell">
+
+                </div>
+                <div class="throw-button-two">Sell Fish</div>
+            <div class="shop-container">
+                <p class="throw-button-two" id="returnToHomeFromSell"><--</p>
+            </div>
+        </div>
+        <div class="hidden" id="buy-screen">
+            <div class="shop-container">
+                <p class="throw-button-two" id="returnToHomeFromBuy"><--</p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
