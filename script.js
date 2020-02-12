@@ -73,9 +73,14 @@ goToSellScreen.addEventListener('click', () => {
     setDisplayVisible(sellScreen);
     userAdmin.areaIn = 'sellScreen';
     for(let i = 0; i < userAdmin.storeDiffFish.length; i++){
+        const sellPageRadio = document.createElement('input');
+        sellPageInfo.type = "radio";
+        sellPageInfo.name = "fish";
+        sellPageInfo.value = userAdmin.storeDiffFish[i].name;
         const sellPageInfo = document.createElement('p');
         sellPageInfo.innerHTML = userAdmin.storeDiffFish[i].name + " - " + userAdmin.storeDiffFish[i].numCought;
         displayInfoSell.append(sellPageInfo);
+        displayInfoSell.append(sellPageRadio);
     }
 });
 goToBuyScreen.addEventListener('click', () => {
